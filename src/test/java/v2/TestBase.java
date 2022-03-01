@@ -16,7 +16,7 @@ public class TestBase {
     @BeforeClass
     public void init() {
         app = new ApplicationManager();
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"/src/main/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") +"/src/main/resources/chromedriver 2");
         WebDriverRunner.setWebDriver(new ChromeDriver());
         WebDriverRunner.getWebDriver().manage().window().maximize();
     }

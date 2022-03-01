@@ -10,6 +10,7 @@ public class HeaderForm {
     public SelenideElement loginBtn = $("[data-locator*='profileLogin']");
 
     public String getLoggedUserName() {
+
         return  $("[data-locator='profile-name']").shouldBe(visible).getText();
     }
 }
